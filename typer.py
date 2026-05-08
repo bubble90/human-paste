@@ -4,7 +4,7 @@
 # FOR NOW LETS JUST IMPLENT THE KEYBOARD TYPING FUNCTIONALITY
 
 import time
-from pynput.keyboard import Key, Controller
+from pynput.keyboard import Controller
 
 
 def get_text() -> str:
