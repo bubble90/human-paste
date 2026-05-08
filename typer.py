@@ -23,11 +23,11 @@ def get_time() -> float:
   print("Enter the time (in seconds) you want to take to type the text:")
   while True:
     try:
-      time = float(input())
-      if time < 0:
+      input_time = float(input())
+      if input_time < 0:
         print("Please enter a positive number.")
         continue
-      return time
+      return input_time
     except ValueError:
       print("Invalid input. Please enter a number.")
 
